@@ -1,6 +1,7 @@
 {
   "name": "f2",
   "version": "0.1.0",
+  "homepage": "https://MKumariThapa.github.io/mkumariPortfolio",
   "private": true,
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.26",
@@ -14,7 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+   
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -36,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
