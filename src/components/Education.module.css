@@ -114,7 +114,7 @@
     flex-direction: column;
     height: 60%;
     margin-top: 2rem;
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
 }
 .education_clg_name
 {
@@ -127,5 +127,16 @@
 }
 .education_clg_name p 
 {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .parent_edu_exp {
+      /* background-color: lightblue; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }

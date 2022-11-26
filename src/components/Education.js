@@ -37,7 +37,7 @@ export default class Third extends Component {
                 <div className={EducationCss.education_clg_name}>
                   {/* <h4> <FaGraduationCap/> Bachelor in Computer Engineering</h4> */}
                   {/* <p>Pokhara University</p> */}
-                  <h4>Waiting...</h4>
+                  <h4>Hopefully Gaining soon...</h4>
                 </div>
 
                 <div className={EducationCss.education_clg_name}>

@@ -68,3 +68,12 @@
 {
     color: blue;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .parentContainer {
+      /* background-color: lightblue; */
+      display: flex;
+      flex-direction: column;
+    }
+  }
