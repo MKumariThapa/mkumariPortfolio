@@ -11,15 +11,15 @@ export default class Works extends Component {
           </div>
           <div className={WorksCss.boxContainer}>
             <div className={WorksCss.boxChild}>
-              <a href='https://fancy-souffle-0890dd.netlify.app/'  target="_blank">Add to Cart</a>
+              <a href='https://fancy-souffle-0890dd.netlify.app/' rel="noopener" target="_blank">Add to Cart</a>
               
              {/* <p>Alaram Clock </p> */}
             </div>
             <div className={WorksCss.boxChild}>
-             <a href='https://mfetchapi.herokuapp.com/' target="_blank">Clothing Store</a>
+             <a href='https://mfetchapi.herokuapp.com/'rel="noopener" target="_blank">Clothing Store</a>
             </div>
             <div className={WorksCss.boxChild}>
-            <a href='https://delicate-belekoy-448173.netlify.app/  ' target="_blank">Alaram Clock</a>
+            <a href='https://delicate-belekoy-448173.netlify.app/  ' rel="noopener"target="_blank">Alaram Clock</a>
             </div>
 
           </div>
