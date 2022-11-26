@@ -1,0 +1,50 @@
+
+
+.parentContainer
+{
+    /* background-color: pink; */
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+
+}
+.boxContainer
+{
+    background-color: orange;
+    background-color: #FBFBFB;
+    height: 60%;
+    width: 90%;
+    margin-top: 2rem;
+    position: absolute;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    
+}
+.boxChild
+{
+    /* background-color: pink; */
+    /* background: red; */
+    height: 40%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxChild a 
+{
+    text-decoration: none;
+    color: #000;
+    transition: transform .2s;
+    letter-spacing: .5rem;
+
+}
+.boxChild a:hover{
+    transform: scale(1.5); 
+}

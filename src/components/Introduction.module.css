@@ -1,0 +1,70 @@
+
+
+.parentContainer
+{
+    /* background-color: red; */
+        height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    height: 80%;
+    width: 90%;
+    background-color: #FBFBFB;
+
+    
+  
+}
+.mImage img
+{
+    height: 30rem;
+    width: 40rem;
+    /* margin-right: 2rem; */
+}
+.hello
+{
+    font-size: 1rem;
+}
+.infoSection
+{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+.hello_there
+{
+    margin-bottom: 4rem;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.hello_there p {
+    /* background-color: blue; */
+    /* margin-top: -0.78rem; */
+    
+}
+.contact_info
+{
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    flex-direction: column;
+    /* background-color: orange; */
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    left: 0;
+    position: absolute;
+    margin-top: 7rem;
+    line-height: 2rem;
+}
+.react_developer
+{
+    color: blue;
+}
